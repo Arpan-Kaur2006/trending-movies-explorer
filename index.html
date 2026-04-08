@@ -17,6 +17,24 @@
   <header>
     <h1>🎬 Trending Movies</h1>
     <p class="subtitle">Today's most popular films, powered by TMDB</p>
+    
+    <!-- Controls -->
+    <div class="controls-container">
+      <input type="text" id="search-bar" placeholder="Search movies..." class="control-input" />
+      <select id="sort-dropdown" class="control-select">
+        <option value="none">Sort By</option>
+        <option value="rating-desc">Rating: High to Low</option>
+        <option value="rating-asc">Rating: Low to High</option>
+        <option value="title-asc">Title: A to Z</option>
+        <option value="title-desc">Title: Z to A</option>
+      </select>
+      <select id="filter-dropdown" class="control-select">
+        <option value="all">All Ratings</option>
+        <option value="8">Rating: 8.0+</option>
+        <option value="7">Rating: 7.0+</option>
+        <option value="6">Rating: 6.0+</option>
+      </select>
+    </div>
   </header>
 
   <!-- Loading -->
